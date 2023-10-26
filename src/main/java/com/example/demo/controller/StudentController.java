@@ -14,6 +14,7 @@ import com.example.demo.service.StudentService;
 
 @RestController
 @RequestMapping("/student")
+@CrossOrigin
 public class StudentController {
 	@Autowired
 	private StudentService studentService;
